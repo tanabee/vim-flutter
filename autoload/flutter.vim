@@ -104,7 +104,6 @@ function! flutter#run(...) abort
   endif
 
   if g:flutter_show_log_on_run
-    split __Flutter_Output__
     normal! ggdG
     setlocal buftype=nofile
     setlocal bufhidden=hide
